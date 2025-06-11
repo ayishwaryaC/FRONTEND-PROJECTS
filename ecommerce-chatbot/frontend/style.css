@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chat-container {
+  width: 90%;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chat-header {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.chat-box {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  height: 400px;
+}
+
+.chat-input {
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  font-size: 16px;
+}
+
+.chat-input button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.bot-message, .user-message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 80%;
+}
+
+.bot-message {
+  background-color: #e0f2f1;
+  align-self: flex-start;
+}
+
+.user-message {
+  background-color: #c8e6c9;
+  align-self: flex-end;
+  text-align: right;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .chat-box {
+    height: 300px;
+  }
+}
+
+
+.timestamp {
+  display: block;
+  font-size: 10px;
+  color: #777;
+  margin-top: 4px;
+  text-align: right;
+}
+
+
+.chat-box {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Add smooth scrolling (optional) */
+.chat-box::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+.chat-box::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.chat-container {
+  width: 90%;
+  max-width: 400px;
+  height: 600px; /* Fixed height for better control */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(20, 184, 47, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+
+.reset-btn {
+  background-color: #f44336; /* Red */
+  color: white;
+  border: none;
+  padding: 0 20px;
+  cursor: pointer;
+  padding: auto;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+
+
+.login-section {
+  width: 90%;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.login-section input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.login-section button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #e0eafc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .signin-section, .login-section {
+    background: rgb(0, 0, 0);
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: chartreuse;
+    width: 320px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+
+  h2 {
+    margin-bottom: 25px;
+    color: #ffffff;
+  }
+
+  input[type="email"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.2s;
+  }
+
+  input[type="email"]:focus {
+    border-color: #19e041;
+    outline: none;
+  }
+
+  button {
+    background-color: #15e033;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  button:hover {
+    background-color: #ffffff;
+    color: #19e041;
+  }
+
+  p {
+    margin-top: 15px;
+    font-size: 13px;
+  }
+
+  a {
+    color: #2ddc27;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+
+  .history-btn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+#userInputh{
+  padding: 10px 20px;
+  margin-left: 10px;
+}

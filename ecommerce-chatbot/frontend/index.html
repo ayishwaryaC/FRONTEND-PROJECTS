@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-commerce Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="signin-section" id="signinSection">
+  <h2>Sign In</h2>
+  <input type="email" id="registerEmail" placeholder="Enter your email" required />
+  <button onclick="registerUser()">Register</button>
+  <p>Already have an account? <a href="#" onclick="toggleToLogin()">Login here</a></p>
+</div>
+
+<div class="login-section" id="loginSection" style="display: none;">
+  <h2>Login</h2>
+  <input type="email" id="emailInput" placeholder="Enter your email" required />
+  <button onclick="loginUser()">Login</button>
+  <p>Don't have an account? <a href="#" onclick="toggleToSignIn()">Sign up here</a></p>
+</div>
+
+  <!-- <div class="login-section" id="loginSection">
+    <h2>Login</h2>
+    <input type="email" id="emailInput" placeholder="Enter your email" required />
+    <button onclick="loginUser()">Login</button>
+  </div> -->
+  
+  <div class="chat-container" id="chatContainer" style="display: none;">
+    <!-- <div class="chat-input">
+  <input type="text" id="userInput" placeholder="Type your question..." />
+  <button onclick="sendMessage()">Send</button>
+  <button onclick="resetChat()" class="reset-btn">Reset</button>
+   </div> -->
+
+    <header class="chat-header">🛍️ E-Commerce Chatbot</header>
+    <div class="chat-box" id="chatBox">
+      <div class="bot-message">Hi! How can I help you today?</div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Type your question..." />
+      <button onclick="sendMessage()">Send</button>
+      <button onclick="resetChat()" class="reset-btn">Reset</button>
+      
+
+    </div>
+    <div>
+    <input type="text" id="userInputh" placeholder="Check your history..." />
+    <button onclick="showHistory()" class="history-btn">History</button>
+    </div>
+  </div>
+
+
+  <script src="app.js">
+    
+  </script>
+</body>
+</html>
