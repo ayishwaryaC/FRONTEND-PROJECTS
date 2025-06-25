@@ -1,1 +1,292 @@
+/* Reset and layout base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main container */
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Left and right sections */
+.left, .right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 60%;
+}
+
+.left {
+  left: 0;
+  background-color: rgb(189, 189, 189);
+  clip-path: polygon(0 0, 95% 0, 85% 100%, 0% 100%);
+  z-index: 1;
+}
+
+.right {
+  right: 0;
+  background-color: black;
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 5% 100%);
+  z-index: 0;
+}
+
+/* Footer (Desktop) */
+.footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  color: white;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+/* Responsive: Tablets and below */
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .left, .right {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    clip-path: none;
+  }
+
+  .left {
+    background-color: rgb(189, 189, 189);
+  }
+
+  .right {
+    background-color: black;
+  }
+
+  .footer {
+    position: relative;
+    bottom: auto;
+    margin-top: auto;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
+
+/* Optional light background container */
+.container1 {
+  background-color: aliceblue;
+}
+
+/* Navbar container (optional wrapper) */
+.container1 {
+  width: 100%;
+  background-color: transparent; /* or any bg if needed */
+}
+
+/* Navbar styling */
+.navbar {
+  width: 100%; /* 🔧 Ensure full screen */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 15px 30px;
+  position: relative; /* Optional: or fixed/absolute if overlay needed */
+  z-index: 10;
+}
+
+/* Logo */
+.logo {
+  color: rgb(16, 16, 16);
+  font-size: 19px;
+  font-weight: bold;
+}
+
+/* Nav links list */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+/* Nav link items */
+.nav-links a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #3c3e3c;
+}
+
+
+.skills-section {
+  padding: 50px 20px;
+  background: #f7f7f7;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.skills-heading {
+  font-size: 28px;
+  font-weight: bold;
+  border: 2px solid black;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.skills-group {
+  margin-bottom: 40px;
+}
+
+.skills-group h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.icons div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+}
+
+.icons img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.icons span {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .icons div {
+    width: 60px;
+  }
+
+  .icons img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .skills-heading {
+    font-size: 22px;
+  }
+
+  .skills-group h3 {
+    font-size: 18px;
+  }
+}
+
+/* @media (max-width: 600px) {
+#logo1 div{
+ width: 60px;
+}
+
+#logo img{
+  width: 40px;
+  height: 40px;
+}
+} */
+
+
+.skills-heading1 {
+  font-size: 20px;
+  font-weight: lighter;
+  
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+
+.services {
+  background: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-divider {
+  font-size: 20px;
+  margin: 20px auto;
+  width: fit-content;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px 20px;
+  color: black;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.service-box {
+  flex: 1 1 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+}
+
+.service-box img {
+  width: 40px;
+  margin-bottom: 15px;
+  opacity: 0.6;
+}
+
+.service-box h3 {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.service-box p {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
