@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    text-decoration: double;
+}
+
+.form {
+    text-align: center;
+    border: 2px dashed dimgray;  /* width style color */
+    border-radius: 20px;         /* rounded corners */
+    padding: 20px;               /* space inside the border */
+    width: 300px;                /* set a width for the box */
+    margin: 20px auto;           /* center the form horizontally */
+}

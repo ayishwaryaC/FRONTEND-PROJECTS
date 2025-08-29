@@ -1,0 +1,68 @@
+<!-- sign up registration form -->
+<!-- Full Name
+Email / Phone
+Password & Confirm Password
+Gender (radio buttons)
+Country (dropdown)
+Submit button -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Registration Form</title>
+</head>
+<body>
+
+    <h1>SIGNUP</h1>
+    <section class="form">
+    <form>
+        <h4>Please enter your name </h4>
+        <input type="text">
+        <h4>Enter your Email</h4>
+        <input type="email" name="email" id="">
+        <label for="email"></label>
+
+
+        <h4>Enter the contact Number here</h4>
+        <input type="text" name = "phonenumber">
+
+        <h4>Enter your password here</h4>
+        <input type="password" name="password" id="">
+
+        <h4>conform your password reenter it</h4>
+        <input type="password" name="conform password" id="">
+
+        <h4>please choose your gender</h4>
+        
+              <li>
+                 <input type="radio" name="female" id="">
+                 <label for="female">Female</label>
+              </li>
+              <li>
+                <input type="radio" name="male" id="">
+                <label for="male">Male</label>
+              </li>
+        
+       
+        <label for="countries"><strong>Choose a country:</strong></label>
+         <select id="countries" name="countries">
+              <option value="india">India</option>
+              <option value="pakistan">Pakistan</option>
+              <option value="indonesia">Indonesia</option>
+              <option value="iraq">Iraq</option>
+              <option value="colombia">Colombia</option>
+</select>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button type="submit">Submit</button>
+    </form>
+    </section>
+    <link rel=stylesheet href="style.css">
+</body>
+</html>
