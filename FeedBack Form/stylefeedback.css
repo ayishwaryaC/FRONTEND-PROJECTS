@@ -1,0 +1,28 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+.feedback{
+    border: 6px;
+    border-radius: 20px;
+    border-color: chocolate;
+    border-style: solid;
+    text-align: center;
+    width: 500px;
+    height: 700px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.textarea{
+    width: 300;
+    height: 300;
+}
+
