@@ -1,0 +1,38 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.jobform{
+    border: 5px;
+    border-radius: 5px;
+    width: 800px;
+    height: 900px;
+    border-style: solid;
+    border-color: rgb(173, 201, 226);
+    margin: 50px;
+    padding: 50px;
+    background-color: rgb(143, 211, 210);
+    
+}
+h1{
+    text-align: center;
+}
+
+#name{
+    padding: 10px;
+    margin-right: 170px;
+    margin-left: 10px;
+}
+
+.text1{
+    font-size: 19px;
+}
+
+.submit{
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
