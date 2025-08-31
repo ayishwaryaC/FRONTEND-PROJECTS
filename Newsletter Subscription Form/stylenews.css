@@ -1,0 +1,46 @@
+body{
+    
+    display: flex;
+    justify-content: center;   /* Horizontal center */
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.border{
+    background-color: rgb(230, 227, 227);
+    border: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    width: 700px;
+    height: 800px;
+    margin: 20px;
+    padding: 30px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#emailid{
+    width: 650px;
+    height: 25px;
+}
+
+
+#firstname{
+    width: 650px;
+    height: 25px;
+}
+
+#lastname{
+    width: 650px;
+    height: 25px;
+}
+
+button{
+    background-color:  #ffffff;
+    
+}
