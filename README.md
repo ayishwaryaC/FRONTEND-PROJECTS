@@ -35,12 +35,17 @@ Welcome to my **Frontend Projects** repository! This collection contains various
 
 ## 📷 Screenshots
 - Job Application
-> <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/12413735-8fb6-474d-9c42-b28d327979a0" />
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/12413735-8fb6-474d-9c42-b28d327979a0" />
 
 
 - NewsLetter Subscription
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/38f481f2-331b-4ad7-9618-28b74040c94a" />
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/38f481f2-331b-4ad7-9618-28b74040c94a" />
 
+
+- Event Registration Form
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/71a619fb-c8aa-4255-adb4-8fb1ef241a15" />
+
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/9e8477ab-216d-406d-92ab-b6632057da49" />
 
 ## 📌 How to Use
 
