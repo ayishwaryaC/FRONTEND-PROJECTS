@@ -47,6 +47,10 @@ Welcome to my **Frontend Projects** repository! This collection contains various
 
 <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/6e92521c-b3ca-45ca-8152-21faba99d712" />
 
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/81edc44b-6d02-4159-91f6-9ebe3d01f7b0" />
+
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/76dae99d-0b12-4376-862d-105cfd09141d" />
+
 
 
 ## 📌 How to Use
