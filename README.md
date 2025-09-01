@@ -34,8 +34,13 @@ Welcome to my **Frontend Projects** repository! This collection contains various
 - Prepare for real-world development challenges
 
 ## 📷 Screenshots
+- Job Application
+> <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/12413735-8fb6-474d-9c42-b28d327979a0" />
 
-> Coming soon — screenshots and demos for each project!
+
+- NewsLetter Subscription
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/38f481f2-331b-4ad7-9618-28b74040c94a" />
+
 
 ## 📌 How to Use
 
