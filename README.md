@@ -43,9 +43,10 @@ Welcome to my **Frontend Projects** repository! This collection contains various
 
 
 - Event Registration Form
-<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/71a619fb-c8aa-4255-adb4-8fb1ef241a15" />
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/e6f7e92e-8816-45cf-9b4b-22c8ac0f7b6d" />
 
-<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/a1820ce7-d71d-4637-9935-ca788ec04279" />
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/6e92521c-b3ca-45ca-8152-21faba99d712" />
+
 
 
 ## 📌 How to Use
