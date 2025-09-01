@@ -5,14 +5,16 @@ Welcome to my **Frontend Projects** repository! This collection contains various
 
 ## 🌟 Projects Included
 
--   
-- 
--   
--  
--   
--  
--  
--  
+-   Ecommerce chatbot
+-   Common form used in websites
+-   Login Form
+-   NewsLetter Subscription Form
+-   FeedBack Form
+-   Job Application Form
+-   Event Registration Form
+-   Ecommerce checkout Form
+-   Search Form
+-   Support and help Form
 - ...and many more coming soon!
 
 
