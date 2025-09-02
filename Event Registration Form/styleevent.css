@@ -1,6 +1,6 @@
 body{
     background-color: rgb(184, 184, 184);
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Times New Roman', Times, serif
 }
 
 .eventimage img {
@@ -11,7 +11,6 @@ body{
   max-width: 1000px;
   height: 700px;
 }
-
 
 .head{
     align-content: center;
@@ -24,7 +23,7 @@ body{
     width: 600px;
     height: 610px;
     border-style: solid;
-    border-color: black;
+    border-color:  #ef6114;
     align-items: center;
     margin: auto;
     margin-top: 60px;
@@ -36,10 +35,10 @@ body{
 }
 
 .eventform:hover {
-    border: 2px solid #ef6114; /* Change border color on hover */
+    border: 2px solid #ef6114; 
     box-shadow: 0 0 25px #ff7300f1; 
+    /* background-color: rgb(255, 146, 38); */
 }
-
 
 .label{
     padding-left: 40px;
@@ -56,9 +55,17 @@ body{
     align-content: center;
     text-align: center;
     justify-content: center;
-   
+    border-radius: 8px;
+    height: 40px;
+    width: 100px;
     margin: 50px;
     margin-left: 270px;
+    align-items: center;
+}
+
+#button:hover{
+    background-color: #ff8543;
+    border-color: #ef6114;
 }
 
 #imagegirl2{
@@ -70,9 +77,6 @@ body{
   top: 10%;
   
 }
-
-
-
 
 .radio{
     margin-left: 50px;
